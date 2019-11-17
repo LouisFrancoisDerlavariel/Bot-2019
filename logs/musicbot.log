@@ -1,0 +1,37 @@
+[44.011831284] 2019-11-17 17:34:45,084 - INFO - launcher: Starting sanity checks
+[44.990062714] 2019-11-17 17:34:45,085 - INFO - launcher: Checking for Python 3.5+
+[44.990062714] 2019-11-17 17:34:45,085 - INFO - launcher: Checking console encoding
+[44.990062714] 2019-11-17 17:34:45,085 - INFO - launcher: Setting console encoding to UTF-8
+[45.964479446] 2019-11-17 17:34:45,086 - INFO - launcher: Ensuring we're in the right environment
+[46.941757202] 2019-11-17 17:34:45,087 - INFO - launcher: Adding local bins/ folder to path
+[767.663240433] 2019-11-17 17:34:45,807 - INFO - launcher: Required checks passed.
+[768.638849258] 2019-11-17 17:34:45,808 - INFO - launcher: Optional checks passed.
+[768.638849258] 2019-11-17 17:34:45,808 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[1.9551670551300049] 2019-11-17 17:34:46,995 - WARNING - musicbot.config | In config.py::MainThread(9244), line 121 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[1.9561421871185303] 2019-11-17 17:34:46,996 - INFO - musicbot.config | In config.py::MainThread(9244), line 132 in run_checks: Using i18n: config/i18n/en.json
+[1.9600491523742676] 2019-11-17 17:34:47,000 - DEBUG - musicbot.bot | In bot.py::MainThread(9244), line 225 in _setup_logging: Set logging level to INFO
+[1.9639558792114258] 2019-11-17 17:34:47,004 - DEBUG - musicbot.json | In json.py::MainThread(9244), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[1.9981327056884766] 2019-11-17 17:34:47,038 - INFO - musicbot.bot | In bot.py::MainThread(9244), line 90 in __init__: Starting MusicBot release-260819-3-gcb7ccd8
+[1.9991080760955811] 2019-11-17 17:34:47,039 - INFO - musicbot.bot | In bot.py::MainThread(9244), line 96 in __init__: Loaded autoplaylist with 2531 entries
+[5.3329949378967285] 2019-11-17 17:34:50,373 - DEBUG - musicbot.bot | In bot.py::MainThread(9244), line 951 in on_ready: Connection established, ready to go.
+[5.3329949378967285] 2019-11-17 17:34:50,373 - DEBUG - musicbot.bot | In bot.py::MainThread(9244), line 342 in _cache_app_info: Caching app info
+[5.6241686344146729] 2019-11-17 17:34:50,664 - DEBUG - musicbot.bot | In bot.py::MainThread(9244), line 773 in _scheck_ensure_env: Ensuring data folders exist
+[5.6261203289031982] 2019-11-17 17:34:50,666 - DEBUG - musicbot.bot | In bot.py::MainThread(9244), line 789 in _scheck_server_permissions: Checking server permissions
+[5.6261203289031982] 2019-11-17 17:34:50,666 - DEBUG - musicbot.bot | In bot.py::MainThread(9244), line 793 in _scheck_autoplaylist: Auditing autoplaylist
+[5.6261203289031982] 2019-11-17 17:34:50,666 - DEBUG - musicbot.bot | In bot.py::MainThread(9244), line 797 in _scheck_configs: Validating config
+[5.6270968914031982] 2019-11-17 17:34:50,667 - DEBUG - musicbot.config | In config.py::MainThread(9244), line 236 in async_validate: Validating options...
+[5.6270968914031982] 2019-11-17 17:34:50,667 - DEBUG - musicbot.bot | In bot.py::MainThread(9244), line 800 in _scheck_configs: Validating permissions config
+[5.6270968914031982] 2019-11-17 17:34:50,667 - DEBUG - musicbot.permissions | In permissions.py::MainThread(9244), line 94 in async_validate: Validating permissions...
+[5.6270968914031982] 2019-11-17 17:34:50,667 - INFO - musicbot.bot | In bot.py::MainThread(9244), line 968 in on_ready: Connected: 390179120178528256/♡ 𝓜𝓐𝓓𝓔 𝓐𝓢𝓐𝓜𝓘 ♡#1238
+[5.6280732154846191] 2019-11-17 17:34:50,668 - INFO - musicbot.bot | In bot.py::MainThread(9244), line 976 in on_ready: Owner:     334268768954089472/LouisFrancois#8131
+
+[5.6290495395660400] 2019-11-17 17:34:50,669 - INFO - musicbot.bot | In bot.py::MainThread(9244), line 979 in on_ready: Guild List:
+[5.6300446987152100] 2019-11-17 17:34:50,670 - INFO - musicbot.bot | In bot.py::MainThread(9244), line 983 in on_ready:  - don't follow your dream | but follow me on ig
+[5.6300446987152100] 2019-11-17 17:34:50,670 - INFO - musicbot.bot | In bot.py::MainThread(9244), line 983 in on_ready:  - เล่นเกมไรก็ได้โตเเล้ว
+[5.6310276985168457] 2019-11-17 17:34:50,671 - INFO - musicbot.bot | In bot.py::MainThread(9244), line 983 in on_ready:  - ★彡 𝚂𝚝𝚊𝚏𝚏 𝙾𝚗𝚕𝚢 彡★
+[5.6310276985168457] 2019-11-17 17:34:50,671 - INFO - musicbot.bot | In bot.py::MainThread(9244), line 983 in on_ready:  - Louis-Bot-Test
+[5.6329572200775146] 2019-11-17 17:34:50,673 - INFO - musicbot.bot | In bot.py::MainThread(9244), line 1039 in on_ready: Not bound to any text channels
+[5.6329572200775146] 2019-11-17 17:34:50,673 - INFO - musicbot.bot | In bot.py::MainThread(9244), line 1065 in on_ready: Not autojoining any voice channels
